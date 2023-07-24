@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:nft_goals/admin_home.dart';
+import 'package:nft_goals/home.dart';
 import 'package:nft_goals/user_provider.dart';
 import 'package:provider/provider.dart';
 
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Goals NFT',
-      home: LoginScreen(),
+      home: AdminHomeScreen(),
     );
   }
 }
